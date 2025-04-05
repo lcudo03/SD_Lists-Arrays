@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build"
+			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build"
 		},
 		{
 			"name" : "Arrays-Lists_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays"
+			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build"
+			"value" : "c:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "x64"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_TOOLSET",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "host=x64"
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays"
+			"value" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Arrays-Lists"
+			"value" : "C:/Program Files/Arrays-Lists"
 		},
 		{
 			"name" : "CMAKE_LINKER",

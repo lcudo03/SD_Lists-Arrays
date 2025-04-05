@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays
+# Install script for directory: C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Arrays-Lists")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Arrays-Lists")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,7 +35,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +51,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

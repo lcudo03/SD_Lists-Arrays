@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists&amp;Arrays\SD_Lists-Arrays\src\main.cpp">
+    <ClCompile Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists-Arrays\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists&amp;Arrays\SD_Lists-Arrays\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists-Arrays\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1A964BB9-1D31-38E7-ACD7-2C200F049757}</UniqueIdentifier>
+      <UniqueIdentifier>{5999B613-FD67-3BA7-8E9F-6A6A102CFC4A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

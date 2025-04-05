@@ -50,14 +50,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-d13fa4464f1e24aab590.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-ced58d8245a6f50805ea.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-efficiency_tests-Debug-1f7cc616dd238308e3ed.json",
+					"jsonFile" : "target-efficiency_tests-Debug-ea1b4ce4a8a01369dcd3.json",
 					"name" : "efficiency_tests",
 					"projectIndex" : 0
 				}
@@ -112,14 +112,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-d13fa4464f1e24aab590.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-ced58d8245a6f50805ea.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-efficiency_tests-Release-cbb4f5ff36996870eef8.json",
+					"jsonFile" : "target-efficiency_tests-Release-3b5d2ce2fd5783127237.json",
 					"name" : "efficiency_tests",
 					"projectIndex" : 0
 				}
@@ -174,14 +174,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d13fa4464f1e24aab590.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-ced58d8245a6f50805ea.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-efficiency_tests-MinSizeRel-b5a1ae4bfbffddff8c25.json",
+					"jsonFile" : "target-efficiency_tests-MinSizeRel-3d3934ab666bc51385c5.json",
 					"name" : "efficiency_tests",
 					"projectIndex" : 0
 				}
@@ -236,14 +236,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d13fa4464f1e24aab590.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-ced58d8245a6f50805ea.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-efficiency_tests-RelWithDebInfo-a43f856dad840148ddc7.json",
+					"jsonFile" : "target-efficiency_tests-RelWithDebInfo-c02fd7b56ec2e74ce799.json",
 					"name" : "efficiency_tests",
 					"projectIndex" : 0
 				}
@@ -253,8 +253,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays/build",
-		"source" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/SD_Lists-Arrays"
+		"build" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays/build",
+		"source" : "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists-Arrays"
 	},
 	"version" : 
 	{
