@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists&amp;Arrays\build\CMakeFiles\7c3ed7adda3d2f36fb511770cba8729a\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\cudo4\Desktop\StrukturyDanych\SD_Lists&amp;Arrays\SD_Lists-Arrays\build\CMakeFiles\bd5cb8c3576a6a0da4da7f795aadb1c8\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{02A6A61B-5545-3BB7-A897-EFD424F19A50}</UniqueIdentifier>
+      <UniqueIdentifier>{82330258-FE5D-352A-BA9A-4E2CEC4BCD2F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
