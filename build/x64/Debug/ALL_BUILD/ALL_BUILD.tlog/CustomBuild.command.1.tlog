@@ -1,0 +1,10 @@
+^C:\USERS\CUDO4\DESKTOP\STRUKTURYDANYCH\SD_LISTS&ARRAYS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays" "-BC:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/build" --check-stamp-file "C:/Users/cudo4/Desktop/StrukturyDanych/SD_Lists&Arrays/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
