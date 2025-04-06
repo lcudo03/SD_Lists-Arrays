@@ -31,6 +31,15 @@ public:
     bool search(T value);
 
     void print();
+
+    void clear() {
+        while (head) {
+            Node* temp = head;
+            head = head->next;
+            delete temp;
+        }
+        tail = nullptr;
+    }
 };
 
 template <typename T>

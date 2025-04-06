@@ -17,11 +17,21 @@ public:
     void insertAtStart(T value);
     void insertAtEnd(T value);
     void insertAtRandom(T value, int index);
+
     void removeFromStart();
     void removeFromEnd();
     void removeAtRandom(int index);
+
     bool search(T value);
+
     void print();
+
+    void clear() {
+        delete[] array;
+        array = new T[1];
+        size = 1;
+        currentSize = 0;
+    }
 };
 
 template <typename T>
@@ -42,13 +52,13 @@ void DynamicArray<T>::resize(){
     for (int i = 0; i < currentSize; i++)
         newArray[i] = array[i];
 
-    delete array;
+    delete[] array;
     array = newArray;
 }
 
 template <typename T>
 void DynamicArray<T>::insertAtStart(T value){
-    if(currentSize == size) resize();
+    if(currentSize >= size) resize();
     for(int i = currentSize; i > 0; i--) 
         array[i] = array[i-1];
 
@@ -58,7 +68,9 @@ void DynamicArray<T>::insertAtStart(T value){
 
 template <typename T>
 void DynamicArray<T>::insertAtEnd(T value){
-    if(currentSize == size) resize();
+    if (currentSize >= size) {
+        resize();
+    }
     array[currentSize++] = value;
 }
 
@@ -88,7 +100,7 @@ void DynamicArray<T>::removeFromStart(){
 
 template <typename T>
 void DynamicArray<T>::removeFromEnd(){
-    if(currentSize == 0)
+    if(currentSize >= 0)
         throw::std::out_of_range("Tablica jest pusta!");
     
     currentSize--;
