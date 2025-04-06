@@ -31,7 +31,7 @@ DynamicArray<T>::DynamicArray(/* args */) : size(1), currentSize(0){
 template <typename T>
 DynamicArray<T>::~DynamicArray()
 {
-    delete[] array
+    delete[] array;
 }
 
 template <typename T>
@@ -64,7 +64,7 @@ void DynamicArray<T>::insertAtEnd(T value){
 template <typename T>
 void DynamicArray<T>::insertAtRandom(T value, int index){
     if(index < 0 || index > currentSize) 
-        throw::std::out_of_range("Index poza rozmiarem tablicy");
+        throw::std::out_of_range("Index poza rozmiarem struktury");
     if(currentSize == size) resize();
 
     for (int i = currentSize; i > index; i--) 
@@ -96,7 +96,7 @@ void DynamicArray<T>::removeFromEnd(){
 template <typename T>
 void DynamicArray<T>::removeAtRandom(int index){
     if(index < 0 || index > currentSize) 
-        throw::std::out_of_range("Index poza rozmiarem tablicy");
+        throw::std::out_of_range("Index poza rozmiarem struktury");
     
     for (int i = index; i < currentSize-1; i++)
         array[i] = array[i+1];
@@ -114,7 +114,7 @@ bool DynamicArray<T>::search(T value){
 
 template <typename T>
 void DynamicArray<T>::print(){
-    for (size_t i = 0; i < count; i++)
+    for (size_t i = 0; i < currentSize; i++)
         std::cout << array[i] << " ";
     
     std::cout << std::endl;
