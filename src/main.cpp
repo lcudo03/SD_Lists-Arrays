@@ -27,12 +27,14 @@ void test(T& set) {
 int main(){
     std::cout << "Testowanie zaimplementowanej struktury tablicy dynamicznej\n";
     DynamicArray<int> arr;
-
     test(arr);
 
     std::cout << "Testowanie zaimplementowanej struktury listy jednokierunkowej\n";
-    SingleLinkedList<int> list;
+    SingleLinkedList<int> list1;
+    test(list1);
 
-    test(list);
+    std::cout << "Testowanie zaimplementowanej struktury listy jednokierunkowej\n";
+    DoubleLinkedList<int> list2;
+    test(list2);
     return 0;
 }

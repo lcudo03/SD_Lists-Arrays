@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
+SET(CMAKE_CXX_FLAGS "-O0")
+SET(CMAKE_C_FLAGS "-O0")
+
 project(Arrays-Lists)
 
 add_library(DataStructures_lib INTERFACE)
