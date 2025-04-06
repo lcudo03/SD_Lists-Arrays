@@ -32,14 +32,7 @@ public:
 
     void print();
 
-    void clear() {
-        while (head) {
-            Node* temp = head;
-            head = head->next;
-            delete temp;
-        }
-        tail = nullptr;
-    }
+    void clear();
 };
 
 template <typename T>
@@ -186,4 +179,14 @@ void DoubleLinkedList<T>::print() {
         current = current->next;
     }
     std::cout << std::endl;
+}
+
+template <typename T>
+void DoubleLinkedList<T>::clear() {
+    while (head) {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+    }
+    tail = nullptr;
 }

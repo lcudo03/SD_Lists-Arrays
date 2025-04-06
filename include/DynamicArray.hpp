@@ -26,12 +26,7 @@ public:
 
     void print();
 
-    void clear() {
-        delete[] array;
-        array = new T[1];
-        size = 1;
-        currentSize = 0;
-    }
+    void clear();
 };
 
 template <typename T>
@@ -131,4 +126,12 @@ void DynamicArray<T>::print(){
         std::cout << array[i] << " ";
     
     std::cout << std::endl;
+}
+
+template <typename T>
+void DynamicArray<T>::clear() {
+    delete[] array;
+    array = new T[1];
+    size = 1;
+    currentSize = 0;
 }
