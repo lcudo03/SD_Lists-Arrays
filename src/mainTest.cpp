@@ -1,9 +1,9 @@
-#include "DynamicArrayBenchmark.hpp"
+#include "Benchmark.hpp"
 #include <iostream>
 
 int main() {
     try {
-        DynamicArrayBenchmark benchmark;
+        Benchmark benchmark;
         benchmark.runTests();
         std::cout << "Koniec teestow, wszystko wykonalo sie prawidlowo, wyniki znajduja sie: results.csv\n";
     }

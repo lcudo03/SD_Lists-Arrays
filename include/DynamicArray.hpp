@@ -95,7 +95,7 @@ void DynamicArray<T>::removeFromStart(){
 
 template <typename T>
 void DynamicArray<T>::removeFromEnd(){
-    if(currentSize >= 0)
+    if(currentSize <= 0)
         throw::std::out_of_range("Tablica jest pusta!");
     
     currentSize--;

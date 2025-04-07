@@ -1,12 +1,12 @@
 #pragma once
-#include "DoubleLinkedList.hpp"
+#include "DynamicArray.hpp"
 #include <vector>
 #include <random>
 #include <chrono>
 #include <fstream>
 #include <string>
 
-class DynamicArrayBenchmark {
+class Benchmark {
     std::vector<int> generateTestData(int size) {
         std::vector<int> data(size);
         std::random_device rd;
@@ -37,14 +37,14 @@ class DynamicArrayBenchmark {
 public:
     void runTests() {
         const std::vector<int> sizes = {5000, 8000, 10000, 16000, 20000, 40000, 60000, 100000};
-        std::ofstream results("dynamic_array_results.csv");
+        std::ofstream results("results.csv");
         results << "Size,Operation,Time(ns)\n";
         
         for (int size : sizes) {
             std::cout << "Testing size: " << size << "\n";
             auto testData = generateTestData(size + 1); // +1 dla dodatkowego elementu
             
-            DoubleLinkedList<int> array;
+            DynamicArray<int> array;
             
             // Wypełnij tablicę danymi testowymi
             for (int i = 0; i < size; i++) {
