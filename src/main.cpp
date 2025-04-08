@@ -20,6 +20,7 @@ int main() {
     do {
         Menu::displayMainMenu();
         cin >> mainChoice;
+        system( "cls" );
 
         switch (mainChoice) {
             case 1:

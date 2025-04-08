@@ -18,16 +18,6 @@ public:
     static void displayMainMenu();
 };
 
-
-void Menu::displayMainMenu() {
-    cout << "\n===== MENU GLOWNE =====\n";
-    cout << "1. Tablica dynamiczna (ArrayList)\n";
-    cout << "2. Lista jednokierunkowa (SinglyLinkedList)\n";
-    cout << "3. Lista dwukierunkowa (DoublyLinkedList)\n";
-    cout << "0. Wyjscie\n";
-    cout << "Wybierz opcje: ";
-}
-
 template <typename T>
 static void Menu::displayStructureMenu(T& structure, const string& structureName) {
     int choice;
@@ -45,6 +35,7 @@ static void Menu::displayStructureMenu(T& structure, const string& structureName
         cout << "0. Powrot\n";
         cout << "Wybierz opcje: ";
         cin >> choice;
+        system( "cls" );
 
         switch (choice) {
             case 1: // Zbuduj z pliku

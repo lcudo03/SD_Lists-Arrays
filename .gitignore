@@ -1,3 +1,7 @@
 build/
 .vscode
 .vs
+Zeszyt1.xlsx
+resultsDoubleLinkedList.csv
+resultsDynamicArray.csv
+resultsSingleLinkedList.csv
