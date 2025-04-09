@@ -110,7 +110,7 @@ static void Menu::displayStructureMenu(T& structure, const string& structureName
                 int size;
                 cout << "Podaj rozmiar struktury: ";
                 cin >> size;
-                structure = T(); // Reset struktury
+                structure.clear(); // Reset struktury
                 srand(time(nullptr));
                 for (int i = 0; i < size; ++i) {
                     structure.insertAtEnd(rand() % 100); // Losowe wartości 0-99
